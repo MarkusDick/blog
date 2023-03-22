@@ -1,0 +1,64 @@
+baseURL: https://markusdick.de/
+languageCode: en-us
+title: markus blog
+theme: PaperMod
+copyright: '© Markus Dick - All rights reserved'
+
+params:
+  title: markus blog
+  description: "this is markus blog."
+  keywords: [blog]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  searchHidden: false
+  assets:
+    favicon: "favicon.png"
+
+ # home-info mode
+  homeInfoParams:
+    Title: "Hello World! 🐢"
+    Content: This is my blog where I post my thoughts and some projects from my never ending to do list.
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/markusdick"
+    - name: "email"
+      url: "mailto:blog@markusdick.de"
+    - name: "twitter"
+      url: "https://twitter.com/balkonbewohner"
+
+menu:
+  main:
+  - name: home
+    url: /
+    weight: 1
+  - name: posts
+    url: /posts/
+    weight: 2
+  - name: about me
+    url: /posts/hello-world
+    weight: 3
+  - name: legal notice
+    url: /legal-notice
+    weight: 4
+
+editPost:
+  URL: "https://github.com/markusdick/blog/"
+  Text: "Suggest Changes"
+  appendFilePath: true
