@@ -3,10 +3,6 @@ title: "Hello World 🌎"
 date: 2023-03-13T17:24:00+01:00
 draft: false
 summary: About me 🐢
-editPost:
-    URL: "https://github.com/markusdick/blog/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
 weight: 1
 ---
 
