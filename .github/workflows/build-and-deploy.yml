@@ -20,9 +20,7 @@ jobs:
           sudo apt install hugo -y
 
       - name: Build the blog
-        run: |
-          hugo --minify
-          ls
+        run: hugo --minify
         
       - name: Deploy via SSH
         run: |
