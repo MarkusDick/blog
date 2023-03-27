@@ -36,10 +36,6 @@ I want to share and document my progress and the things I'm learning. Of course,
 You can also dm me on [Twitter](https://twitter.com/balkonbewohner) or send me an [email](mailto:blog@markusdick.de).
 
 ## Links
-- [1] https://github.com/markusdick/blog
-- [2] https://github.com/gohugoio/hugo
-- [3] https://github.com/adityatelange/hugo-PaperMod
-- [4] https://icons8.com/icon/klZZJQYqaSjN/turtle
-- [5] https://twitter.com/balkonbewohner
+{{< links >}}
 
 See you, Markus!

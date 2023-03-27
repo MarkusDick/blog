@@ -1,0 +1,10 @@
+{{ $content := .Page.RawContent }}
+{{ $links := findRE "https:\\/\\/[\\w\\d./?=#&%~-]+" $content }}
+
+{{ if $links }}
+    <ul>
+        {{ range $i, $link := $links }}
+            <li>[{{ add $i 1 }}] <a href="{{ $link }}">{{ $link }}</a></li>
+        {{ end }}
+    </ul>
+{{ end }}
