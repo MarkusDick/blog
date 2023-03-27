@@ -22,11 +22,15 @@ jobs:
       - name: Build the blog
         run: hugo --minify
         
-      - name: Deploy via SSH
-        run: |
+      - name: Set up SSH
+        run: | 
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          scp -P ${{ secrets.SSH_PORT }} -r public/* ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_FOLDER }}
-          rm -rf ~./ssh
+
+      - name: Deploy via SSH
+        run: scp -P ${{ secrets.SSH_PORT }} -r public/* ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_FOLDER }}
+      
+      - name: Remove SSH key
+        run: rm -rf ~./ssh
