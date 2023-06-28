@@ -1,5 +1,5 @@
 {{ $content := .Page.RawContent }}
-{{ $links := findRE "https:\\/\\/[\\w\\d./?=#&%~-]+" $content }}
+{{ $links := findRE "https?:\\/\\/[\\w\\d./?=#&%~-]+" $content }}
 
 {{ if $links }}
     <ul>
