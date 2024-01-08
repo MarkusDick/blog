@@ -16,8 +16,7 @@ jobs:
       
       - name: Install hugo
         run: |
-          sudo apt update
-          sudo apt install hugo -y
+          sudo snap install hugo
 
       - name: Build the blog
         run: hugo --minify
