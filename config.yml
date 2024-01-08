@@ -44,7 +44,7 @@ params:
       url: "https://github.com/markusdick"
     - name: "email"
       url: "mailto:blog@markusdick.de"
-    - name: "twitter"
+    - name: "x"
       url: "https://twitter.com/balkonbewohner"
 
 menu:
