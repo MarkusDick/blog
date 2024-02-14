@@ -1,7 +1,7 @@
 ---
 title: "Creating Print & Play Cards 🃏"
 date: 2024-02-14T17:10:00+01:00
-draft: true
+draft: false
 summary: Creating an open source german word card deck for word games like Broad Lines, Just One etc. and making the cards.
 tags: [project, games]
 ---
