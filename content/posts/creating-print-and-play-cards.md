@@ -9,8 +9,8 @@ tags: [project, games]
 *tl;dr: I created an open-source german word card deck (115 cards) for word games like Broad Lines or Just One. You can see the results in the [last chapter](#finished-cards). On GitHub you can find the [repository of the word cards](https://github.com/markusdick/german-word-card-deck) including the [print-and-play file](https://github.com/markusdick/german-word-card-deck/releases).*
 
 Showcase:
-{{< figure align=center src="showcase_front.png" height="300" alt="Front" caption="Front" >}}
-{{< figure align=center src="showcase_back.png" height="300" alt="Back" caption="Back" >}}
+{{< figure align=center src="showcase_front.png" alt="Front" caption="Front" >}}
+{{< figure align=center src="showcase_back.png" alt="Back" caption="Back" >}}
 
 ## Introduction
 
@@ -279,7 +279,7 @@ The icons on the back are rotated by 180 degrees because I made sure that the fr
 With the last step, the whole deck is saved in the `_output`-directory as the PDF file `deck.pdf`.
 
 Example deck page:
-{{< figure align=center src="example_deck_page.jpg" height="300px" alt="Example deck page" caption="Example deck page" >}}
+{{< figure align=center src="example_deck_page.jpg" alt="Example deck page" caption="Example deck page" >}}
 
 The code I wrote is a bit hacky and has a little bug in it, so it ends up generating some extra blank cards - this is because of the `Deck` initialization of lines of the `shuffled-words.csv` *_plus one_*, but I can not delete it, because then I run into an `outside of deck range` error. So I left the *_plus one_* in my code and it works for my purpose.
 
@@ -315,11 +315,11 @@ Once everything is dry, you need to fold the sheets of paper to line up the fron
 
 I used a ruler and the back of a knife to crease the middle of the paper - to be able to fold the cards easily.
 
-{{< figure align=center src="folding_1.jpg" height="450px" alt="Crease the fold line with the back of the knife" caption="Crease the fold line with the back of the knife" >}}
+{{< figure align=center src="folding_1.jpg" alt="Crease the fold line with the back of the knife" caption="Crease the fold line with the back of the knife" >}}
 
-{{< figure align=center src="folding_2.jpg" height="450px" alt="Crease" caption="Crease (zoom in to see it)" >}}
+{{< figure align=center src="folding_2.jpg" alt="Crease" caption="Crease (zoom in to see it)" >}}
 
-{{< figure align=center src="folding_3.jpg" height="450px" alt="Folded paper" caption="Folded paper" >}}
+{{< figure align=center src="folding_3.jpg" alt="Folded paper" caption="Folded paper" >}}
 
 #### 4. Spray glue on the inside
 {{< figure align=center src="spray_glue.jpg" height="450px" alt="Spray glue on the inside of the paper" caption="Spray glue on the inside of the paper" >}}
@@ -330,19 +330,19 @@ After the spray glue you should put one side of a laminating sheet in the folded
 After this the tutorial suggests that you laminate it. I had problems with the ink when I laminated it later. I would suggest to laminate a normal laminate sheet before gluing it to the paper.
 
 If you want to laminate it after gluing, you must cut the paper strips so that no laminating foil stands out, otherwise the foil will stick to the laminator.
-{{< figure align=center src="paper_strips_ready_for_cutting.jpg" height="450px" alt="The paper strips are ready for laminating and cutting" caption="The paper strips are ready for laminating and cutting" >}}
+{{< figure align=center src="paper_strips_ready_for_cutting.jpg" alt="The paper strips are ready for laminating and cutting" caption="The paper strips are ready for laminating and cutting" >}}
 
 > Laminating: I had the problem that the laminating process smudged the ink from the cards. So I skipped that part, but I really suggest that you laminate your laminating sheets before you put them inside. If you do so, you can avoid this issue.
 
 #### 6. Cut the cards out with the help of a cutting machine
 Because I designed the back of the cards to be slightly larger than the front, I did not have a single alignment issue. I simply cut out the cards from the front and the back fit perfectly.
 
-{{< figure align=center src="cut_cards_1.jpg" height="500px" alt="A lot of cut cards." caption="A lot of cut cards." >}}
+{{< figure align=center src="cut_cards_1.jpg" alt="A lot of cut cards." caption="A lot of cut cards." >}}
 {{< figure align=center src="cut_cards_2.jpg" height="500px" alt="A single cards" caption="A single card" >}}
 
 #### 7. Round up the corners
 As the last step I used a simple corner cutter (4mm) to round up the corners of the cards.
-{{< figure align=center src="corner_cutter.jpg" height="500px" alt="Corner cutter" caption="Corner cutter" >}}
+{{< figure align=center src="corner_cutter.jpg" height="350px" alt="Corner cutter" caption="Corner cutter" >}}
 {{< figure align=center src="finished_card.jpg" height="500px" alt="Finished card" caption="Finished card" >}}
 
 ### Mistakes / Learnings
@@ -374,9 +374,9 @@ It was quite hard to find many drawable words and it took me about 15-20 hours t
 In this project I learned how to design my own (yet simple) deck of cards. I found useful resources to help me visualize my ideas. I learned a little bit about Ruby, its build system and the DSL Squib - still learning, but I got the job done using them. After crafting the card deck it is a joy to hold my own cards in my hands. I am really surprised by the quality of the cards. 
 
 ## Finished Cards
-{{< figure align=center src="deck_1.jpg" height="400px" alt="Picture of the deck" caption="Picture of the deck" >}}
-{{< figure align=center src="deck_2.jpg" height="400px" alt="Picture of the backsides of some cards" caption="Picture of the backsides of some cards" >}}
-{{< figure align=center src="deck_3.jpg" height="400px" alt="Picture of the fronts of some cards" caption="Picture of the fronts of some cards" >}}
+{{< figure align=center src="deck_1.jpg" width="80%" alt="Picture of the deck" caption="Picture of the deck" >}}
+{{< figure align=center src="deck_2.jpg" alt="Picture of the backsides of some cards" caption="Picture of the backsides of some cards" >}}
+{{< figure align=center src="deck_3.jpg" alt="Picture of the fronts of some cards" caption="Picture of the fronts of some cards" >}}
 
 ## Thanks to / Credits
 - Family ❤️ (especially for Achim's help) for brainstorming words, designs, crafting and proof reading
