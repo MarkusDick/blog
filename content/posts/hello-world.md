@@ -4,7 +4,6 @@ date: 2023-03-13T17:24:00+01:00
 draft: false
 summary: About me 🐢
 tags: [blog, personal]
-weight: 1
 ---
 
 ## About me
