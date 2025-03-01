@@ -46,6 +46,7 @@ params:
       url: "mailto:blog@markusdick.de"
     - name: "mastodon"
       url: "https://mastodon.social/@balkonbewohner"
+      rel: "me"
 
 menu:
   main:
