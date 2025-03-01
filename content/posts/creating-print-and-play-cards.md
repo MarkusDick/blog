@@ -384,6 +384,7 @@ In this project I learned how to design my own (yet simple) deck of cards. I fou
 ### Tools / Tutorials
 - [Squib](https://squib.rocks) by Andy Meneely
 - [How To Make Game Cards that Shuffle - Print and Play Tutorial](https://www.youtube.com/watch?v=DgNJmAkO1_M) by Rachel Bruner
+- [Haikei](https://app.haikei.app/) by z creative labs
 
 ### Icons
 All icons are from [game-icons.net](https://game-icons.net/).
