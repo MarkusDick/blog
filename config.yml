@@ -37,7 +37,7 @@ params:
  # home-info mode
   homeInfoParams:
     Title: "Hello World! 🐢"
-    Content: This is my blog where I post my thoughts and some projects from my never ending to do list.
+    Content: "This is my blog where I post my thoughts and some projects from my never ending to do list. #opensource #opendata #maker"
 
   socialIcons:
     - name: "github"
