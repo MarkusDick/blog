@@ -33,7 +33,7 @@ In my freetime I love learning new things.
 ## Why this blog?
 I want to share and document my progress and the things I'm learning. Of course, I'm not an expert in all these areas, just a person trying to solve some problems and learn something new every day. If you have suggestions on how to do things better, you can grab my code and improve my code, or open an issue and discuss technical issues with me. This is the beauty of open source.
 
-You can also dm me on [Twitter](https://twitter.com/balkonbewohner) or send me an [email](mailto:blog@markusdick.de).
+You can also dm me on ~[Twitter](https://twitter.com/balkonbewohner)~ [Mastodon 🐘](https://mastodon.social/@balkonbewohner) or send me an [email](mailto:blog@markusdick.de).
 
 ## Links
 {{< links >}}
